@@ -21,6 +21,15 @@
 		DD18A14D145E85F7009DE927 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD18A12B145E85F7009DE927 /* Foundation.framework */; };
 		DD18A155145E85F7009DE927 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD18A153145E85F7009DE927 /* InfoPlist.strings */; };
 		DD18A158145E85F7009DE927 /* TDDTwitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD18A157145E85F7009DE927 /* TDDTwitterTests.m */; };
+		DD18A169145E86E3009DE927 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD18A14A145E85F7009DE927 /* SenTestingKit.framework */; };
+		DD18A16A145E86E3009DE927 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD18A129145E85F7009DE927 /* UIKit.framework */; };
+		DD18A16B145E86E3009DE927 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD18A12B145E85F7009DE927 /* Foundation.framework */; };
+		DD18A171145E86E3009DE927 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD18A16F145E86E3009DE927 /* InfoPlist.strings */; };
+		DD18A174145E86E3009DE927 /* TDDTwitterLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD18A173145E86E3009DE927 /* TDDTwitterLogicTests.m */; };
+		DD647D0C145E90C8000A7843 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD647D0B145E90C8000A7843 /* Twitter.framework */; };
+		DD647D0D145E90C8000A7843 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD647D0B145E90C8000A7843 /* Twitter.framework */; };
+		DDD898B3145E8C1E00D15018 /* TTTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD898B2145E8C1E00D15018 /* TTTwitter.m */; };
+		DDD898B4145E8C1E00D15018 /* TTTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD898B2145E8C1E00D15018 /* TTTwitter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +47,31 @@
 		DD18A129145E85F7009DE927 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DD18A12B145E85F7009DE927 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DD18A12D145E85F7009DE927 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DD18A131145E85F7009DE927 /* TDDTwitter-Info.plist */ = {isa = PBXFileReference; path = "TDDTwitter-Info.plist"; sourceTree = "<group>"; };
+		DD18A131145E85F7009DE927 /* TDDTwitter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TDDTwitter-Info.plist"; sourceTree = "<group>"; };
 		DD18A133145E85F7009DE927 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD18A135145E85F7009DE927 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DD18A137145E85F7009DE927 /* TDDTwitter-Prefix.pch */ = {isa = PBXFileReference; path = "TDDTwitter-Prefix.pch"; sourceTree = "<group>"; };
-		DD18A138145E85F7009DE927 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD18A137145E85F7009DE927 /* TDDTwitter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDDTwitter-Prefix.pch"; sourceTree = "<group>"; };
+		DD18A138145E85F7009DE927 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD18A139145E85F7009DE927 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DD18A13B145E85F7009DE927 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		DD18A13B145E85F7009DE927 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DD18A13C145E85F7009DE927 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DD18A13F145E85F7009DE927 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		DD18A142145E85F7009DE927 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		DD18A149145E85F7009DE927 /* TDDTwitterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDTwitterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD18A14A145E85F7009DE927 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		DD18A152145E85F7009DE927 /* TDDTwitterTests-Info.plist */ = {isa = PBXFileReference; path = "TDDTwitterTests-Info.plist"; sourceTree = "<group>"; };
+		DD18A152145E85F7009DE927 /* TDDTwitterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TDDTwitterTests-Info.plist"; sourceTree = "<group>"; };
 		DD18A154145E85F7009DE927 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DD18A156145E85F7009DE927 /* TDDTwitterTests.h */ = {isa = PBXFileReference; path = TDDTwitterTests.h; sourceTree = "<group>"; };
+		DD18A156145E85F7009DE927 /* TDDTwitterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDDTwitterTests.h; sourceTree = "<group>"; };
 		DD18A157145E85F7009DE927 /* TDDTwitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDTwitterTests.m; sourceTree = "<group>"; };
+		DD18A168145E86E3009DE927 /* TDDTwitterLogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDTwitterLogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD18A16E145E86E3009DE927 /* TDDTwitterLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TDDTwitterLogicTests-Info.plist"; sourceTree = "<group>"; };
+		DD18A170145E86E3009DE927 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD18A172145E86E3009DE927 /* TDDTwitterLogicTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDDTwitterLogicTests.h; sourceTree = "<group>"; };
+		DD18A173145E86E3009DE927 /* TDDTwitterLogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDTwitterLogicTests.m; sourceTree = "<group>"; };
+		DD18A175145E86E3009DE927 /* TDDTwitterLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDDTwitterLogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		DD647D0B145E90C8000A7843 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		DDD898B1145E8C1E00D15018 /* TTTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTwitter.h; sourceTree = "<group>"; };
+		DDD898B2145E8C1E00D15018 /* TTTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTwitter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +82,7 @@
 				DD18A12A145E85F7009DE927 /* UIKit.framework in Frameworks */,
 				DD18A12C145E85F7009DE927 /* Foundation.framework in Frameworks */,
 				DD18A12E145E85F7009DE927 /* CoreGraphics.framework in Frameworks */,
+				DD647D0C145E90C8000A7843 /* Twitter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +96,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD18A164145E86E3009DE927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD18A169145E86E3009DE927 /* SenTestingKit.framework in Frameworks */,
+				DD18A16A145E86E3009DE927 /* UIKit.framework in Frameworks */,
+				DD18A16B145E86E3009DE927 /* Foundation.framework in Frameworks */,
+				DD647D0D145E90C8000A7843 /* Twitter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -85,6 +115,7 @@
 			children = (
 				DD18A12F145E85F7009DE927 /* TDDTwitter */,
 				DD18A150145E85F7009DE927 /* TDDTwitterTests */,
+				DD18A16C145E86E3009DE927 /* TDDTwitterLogicTests */,
 				DD18A128145E85F7009DE927 /* Frameworks */,
 				DD18A126145E85F7009DE927 /* Products */,
 			);
@@ -95,6 +126,7 @@
 			children = (
 				DD18A125145E85F7009DE927 /* TDDTwitter.app */,
 				DD18A149145E85F7009DE927 /* TDDTwitterTests.octest */,
+				DD18A168145E86E3009DE927 /* TDDTwitterLogicTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				DD18A129145E85F7009DE927 /* UIKit.framework */,
+				DD647D0B145E90C8000A7843 /* Twitter.framework */,
 				DD18A12B145E85F7009DE927 /* Foundation.framework */,
 				DD18A12D145E85F7009DE927 /* CoreGraphics.framework */,
 				DD18A14A145E85F7009DE927 /* SenTestingKit.framework */,
@@ -117,6 +150,8 @@
 				DD18A139145E85F7009DE927 /* AppDelegate.m */,
 				DD18A13B145E85F7009DE927 /* ViewController.h */,
 				DD18A13C145E85F7009DE927 /* ViewController.m */,
+				DDD898B1145E8C1E00D15018 /* TTTwitter.h */,
+				DDD898B2145E8C1E00D15018 /* TTTwitter.m */,
 				DD18A13E145E85F7009DE927 /* ViewController_iPhone.xib */,
 				DD18A141145E85F7009DE927 /* ViewController_iPad.xib */,
 				DD18A130145E85F7009DE927 /* Supporting Files */,
@@ -150,6 +185,26 @@
 			children = (
 				DD18A152145E85F7009DE927 /* TDDTwitterTests-Info.plist */,
 				DD18A153145E85F7009DE927 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD18A16C145E86E3009DE927 /* TDDTwitterLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD18A172145E86E3009DE927 /* TDDTwitterLogicTests.h */,
+				DD18A173145E86E3009DE927 /* TDDTwitterLogicTests.m */,
+				DD18A16D145E86E3009DE927 /* Supporting Files */,
+			);
+			path = TDDTwitterLogicTests;
+			sourceTree = "<group>";
+		};
+		DD18A16D145E86E3009DE927 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD18A16E145E86E3009DE927 /* TDDTwitterLogicTests-Info.plist */,
+				DD18A16F145E86E3009DE927 /* InfoPlist.strings */,
+				DD18A175145E86E3009DE927 /* TDDTwitterLogicTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -193,6 +248,24 @@
 			productReference = DD18A149145E85F7009DE927 /* TDDTwitterTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		DD18A167145E86E3009DE927 /* TDDTwitterLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD18A176145E86E3009DE927 /* Build configuration list for PBXNativeTarget "TDDTwitterLogicTests" */;
+			buildPhases = (
+				DD18A163145E86E3009DE927 /* Sources */,
+				DD18A164145E86E3009DE927 /* Frameworks */,
+				DD18A165145E86E3009DE927 /* Resources */,
+				DD18A166145E86E3009DE927 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDDTwitterLogicTests;
+			productName = TDDTwitterLogicTests;
+			productReference = DD18A168145E86E3009DE927 /* TDDTwitterLogicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -215,6 +288,7 @@
 			targets = (
 				DD18A124145E85F7009DE927 /* TDDTwitter */,
 				DD18A148145E85F7009DE927 /* TDDTwitterTests */,
+				DD18A167145E86E3009DE927 /* TDDTwitterLogicTests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,10 +312,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD18A165145E86E3009DE927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD18A171145E86E3009DE927 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		DD18A147145E85F7009DE927 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		DD18A166145E86E3009DE927 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,6 +359,7 @@
 				DD18A136145E85F7009DE927 /* main.m in Sources */,
 				DD18A13A145E85F7009DE927 /* AppDelegate.m in Sources */,
 				DD18A13D145E85F7009DE927 /* ViewController.m in Sources */,
+				DDD898B3145E8C1E00D15018 /* TTTwitter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +368,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD18A158145E85F7009DE927 /* TDDTwitterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD18A163145E86E3009DE927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD18A174145E86E3009DE927 /* TDDTwitterLogicTests.m in Sources */,
+				DDD898B4145E8C1E00D15018 /* TTTwitter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +419,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				DD18A154145E85F7009DE927 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD18A16F145E86E3009DE927 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD18A170145E86E3009DE927 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -424,6 +537,36 @@
 			};
 			name = Release;
 		};
+		DD18A177145E86E3009DE927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDDTwitterLogicTests/TDDTwitterLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "TDDTwitterLogicTests/TDDTwitterLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DD18A178145E86E3009DE927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDDTwitterLogicTests/TDDTwitterLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "TDDTwitterLogicTests/TDDTwitterLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -443,6 +586,7 @@
 				DD18A15D145E85F7009DE927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD18A15E145E85F7009DE927 /* Build configuration list for PBXNativeTarget "TDDTwitterTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +595,16 @@
 				DD18A160145E85F7009DE927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD18A176145E86E3009DE927 /* Build configuration list for PBXNativeTarget "TDDTwitterLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD18A177145E86E3009DE927 /* Debug */,
+				DD18A178145E86E3009DE927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
